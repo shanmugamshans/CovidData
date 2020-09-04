@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/internet_background"
+
+>
+
+    <ImageView
+            android:src="@drawable/internet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="oops!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="No internet connection found. \n Check your connection"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="center_horizontal"/>
+    <Button
+            android:background="@drawable/labelview"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Try Again"
+            android:id="@+id/internet_try_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
